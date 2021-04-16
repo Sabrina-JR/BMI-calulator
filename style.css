@@ -28,9 +28,6 @@ img{
     height: 55px;
 }
 
-
-
-
 .allinput{
     margin: 80px;  
 }
@@ -50,7 +47,6 @@ input{
     padding-left: 10px
     
 }
-
 
 .btn{
     position: relative;
@@ -84,7 +80,6 @@ input{
     font-size: 14px;
 }
 
-
 section{
     width: 70%;
     text-align: center;
@@ -98,6 +93,24 @@ a{
     color: #FF1200;
     padding: 0 5px;
     cursor: pointer;
+}
+
+.container{
+    display: inline-block;
+    border:  solid 1px rgb(240, 234, 234);
+    box-shadow: 5px 6px 6px rgb(155, 153, 153);
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.getbmi{
+    display: inline;
+    margin: 0 5px;
+}
+
+.getbmi .eng{
+    font-size: 15px;
 }
 
 footer{
