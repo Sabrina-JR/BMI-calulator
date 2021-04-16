@@ -241,6 +241,41 @@ BMI標準
     font-size: 15px;
 }
 
+.lightBar{
+    display: inline;
+    margin-left: -10px;
+}
+
+#blue{
+    
+    background-color: #31BAF9;
+    width: 7px;
+}
+
+#green{
+
+    background-color: #86D73F;
+    width: 7px;
+}
+
+#orange1{
+    
+    background-color: #FF982D;
+    width: 7px;
+}
+
+#orange2{
+    
+    background-color: #FF6C02;
+    width: 7px;
+}
+
+#red{
+    
+    background-color: #FF1200;
+    width: 7px;
+}
+
 footer{
     display: flex;
     justify-content: center;

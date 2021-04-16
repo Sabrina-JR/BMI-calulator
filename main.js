@@ -11,6 +11,9 @@ btn.addEventListener('click', calculateBMI);
 list.addEventListener('click', beDone);
 
 
+UpdateList(data);
+
+
 function calculateBMI(e){
     e.preventDefault();
     var height = document.querySelector('.height').value;
@@ -99,3 +102,15 @@ function UpdateList(items){
     list.innerHTML = str;
   }
   
+
+//刪除事件
+
+function beDone(e){
+    e.preventDefault();
+    if(e.target.nodeName !== "A"){return}
+    //取出刪除項目的data
+    var index = e.target.dataset.index;
+    data.splice(index,1);
+    localStorage.setItem('datalist', JSON.stringify(data));
+    UpdateList(data);
+}
