@@ -285,4 +285,47 @@ footer{
     ;
 }
 
+@media only screen and (max-width: 426px){
+    header {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #424242;
+        color: #FFD366;
+    }
+
+    .allinput {
+        margin: 50px;
+    }
+
+    input {
+        width: 100px;
+        height: 40px;
+        opacity: 0.6;
+        border-radius: 15px;
+        border: solid 2px rgba(255, 255, 255, 0.568);
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .container {
+        display: inline-block;
+        border: solid 1px rgb(240, 234, 234);
+        box-shadow: 5px 6px 6px rgb(155 153 153);
+        border-radius: 2px;
+        padding: 4px -2px;
+        margin: 5px;
+    }
+    .getbmi {
+        display: inline;
+        margin: 0px 4px;
+        font-size: 15px;
+    }
+    
+    
+}
+
+
+
 
