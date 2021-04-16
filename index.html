@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI calculator</title>
 </head>
 <body>
-    
+    <div>
+        <header>
+            <div>
+                <img src="https://github.com/Jimmywei01/Pratice/blob/master/BMI.JPG?raw=true" alt="BMI">
+            </div>
+            <div class="allinput">
+                <h1>身高 cm</h1>
+                <input type="text" class="height" placeholder="請輸入身高">
+                <h1>體重 kg</h1>
+                <input type="text" class="weight" placeholder="請輸入體重">
+            </div>
+            <button class="btn" type="button"><span class="click">看結果</span>
+                <p class="value"></p>
+                <p class="bmi"></p>
+                <div class="circular"></div>
+              </button>
+        </header>
+        <section>
+            <div>BMI 紀錄</div>
+            <div class="list">
+            </div>
+        </section>
+        <footer>
+            <img src="https://github.com/Jimmywei01/Pratice/blob/master/BMI.JPG?raw=true" alt="BMI">
+        </footer>
+        <script src="main.js"></script>
+    </div>
 </body>
 </html>
