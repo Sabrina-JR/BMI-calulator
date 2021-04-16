@@ -65,6 +65,12 @@ function calculateBMI(e){
         lightBar = 'red';
         btn.setAttribute("class","red");
     }
+
+     // bnt被點擊後 改變畫面內容
+     document.querySelector('.value').textContent = BMI;
+     document.querySelector('.bmi').textContent = 'BMI';
+     document.querySelector('.click').textContent = '';
+
     //放入物件中
     var allBMI = {
         lightBar: lightBar, 
