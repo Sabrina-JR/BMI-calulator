@@ -95,6 +95,134 @@ a{
     cursor: pointer;
 }
 
+/* BMIbtn 改變 */
+
+/* 
+BMI標準
+---
+過輕blue 
+理想green 
+過重orange1 
+輕度肥胖orange2 
+中度肥胖orange2
+重度肥胖red 
+---
+*/
+
+.blue{
+    position: relative;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #424242;
+    border: 6px solid #31BAF9;
+}
+
+.blue .circular{
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #424242;
+    border-radius: 50%;
+    background-image: url(https://github.com/Jimmywei01/Pratice/blob/master/icons_loop.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #31BAF9;
+}
+.green{
+    position: relative;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #424242;
+    border: 6px solid #86D73F;
+}
+
+.green .circular{
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #424242;
+    border-radius: 50%;
+    background-image: url(https://github.com/Jimmywei01/Pratice/blob/master/icons_loop.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #86D73F;
+}
+
+.orange1{
+    position: relative;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #424242;
+    border: 6px solid #FF982D;
+}
+
+.orange1 .circular{
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #424242;
+    border-radius: 50%;
+    background-image: url(https://github.com/Jimmywei01/Pratice/blob/master/icons_loop.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FF982D;
+}
+
+.orange2{
+    position: relative;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #424242;
+    border: 6px solid #FF6C02;
+}
+
+.orange2 .circular{
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #424242;
+    border-radius: 50%;
+    background-image: url(https://github.com/Jimmywei01/Pratice/blob/master/icons_loop.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#FF6C02;
+}
+
+.red{
+    position: relative;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #424242;
+    border: 6px solid #FF1200;
+}
+
+.red .circular{
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #424242;
+    border-radius: 50%;
+    background-image: url(https://github.com/Jimmywei01/Pratice/blob/master/icons_loop.png?raw=true);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FF1200;
+}
+
 .container{
     display: inline-block;
     border:  solid 1px rgb(240, 234, 234);

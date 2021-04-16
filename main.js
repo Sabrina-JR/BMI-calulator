@@ -6,7 +6,7 @@ var list = document.querySelector('.list');
 var data = JSON.parse(localStorage.getItem('datalist')) || [];
 
 
-//監聽處發事件
+//監聽觸發事件
 btn.addEventListener('click', calculateBMI);
 list.addEventListener('click', beDone);
 
